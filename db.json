@@ -8,10 +8,58 @@
       "id": 1
     }
   ],
-  "home": [
+  "home":[
+    {
+      "name": "Hamburger",
+      "type": "sanduíches",
+      "img": "https://bit.ly/3bmq4R1",
+      "price": 14
+    },
+    {
+      "name": "X-Burger",
+      "type": "sanduíches",
+      "img": "https://bit.ly/3pMhMKN",
+      "price": 16
+    },
+    {
+      "name": "Big Kenzie",
+      "type": "sanduíches",
+      "img": "https://bit.ly/2ZAiKiE",
+      "price": 18
+    },
+    {
+      "name": "Combo Kenzie",
+      "type": "sanduíches",
+      "img": "https://bit.ly/2ZBVArt",
+      "price": 26
+    },
+    {
+      "name": "Fanta Guaraná",
+      "type": "bebidas",
+      "img": "https://bit.ly/2ZLbG2t",
+      "price": 5
+    },
+    {
+      "name": "Coca-cola",
+      "type": "bebeidas",
+      "img": "https://bit.ly/3BxadJT",
+      "price": 7
+    },
+    {
+      "name": "Milkshake Ovomaltine",
+      "type": "sobremesas",
+      "img": "https://bit.ly/3GCXysH",
+      "price": 10
+    },
+    {
+      "name": "Sunday",
+      "type": "sobremesas",
+      "img": "https://bit.ly/2Zvmh18",
+      "price": 10
+    }
 
   ],
   "cart": [
-    
+
   ]
 }
