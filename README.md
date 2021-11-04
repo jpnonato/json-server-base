@@ -19,7 +19,7 @@ POST /register
   "password": "yyyyyy"
 }
 
-os campos obrigatórios são os de email e password.Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
+os campos obrigatórios são os de E-mail e password.Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
 
 
 ### Fazer login
@@ -38,11 +38,17 @@ POST /login
 
 GET /home
 
-### pesquisar um produto especifico
+### pegar um produto específico do catálogo
 
 GET /home?name="o que fou digitado no input de pesquisa" 
 
-### adicionar a lista de carrinhos do usuário
+### Listar as propriedades de um usuário específico
+
+GET  /users/ id 
+
+### alterar os dados de um usuário específico na API
+
 Patch /users/ id
+
 
 
