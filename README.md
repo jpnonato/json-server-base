@@ -15,8 +15,8 @@ O url base da API é https://json-server-hamburgeria.herokuapp.com/
 POST /register
 
 {
-  "email": "xxx@gmail.com",
-  "password": "yyyyyy"
+  "email": "fulano@gmail.com",
+  "password": "123456"
 }
 
 os campos obrigatórios são os de E-mail e password.Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
@@ -27,10 +27,9 @@ os campos obrigatórios são os de E-mail e password.Você pode ficar a vontade 
 POST /login 
 
 {
-	"email": "xxx@gmail.com",
-	"password": "yyyyyy"
+  "email": "fulano@gmail.com",
+  "password": "123456"
 }
-
 
 ### Rotas que precisam de autentificação:
 
